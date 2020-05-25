@@ -1,0 +1,149 @@
+html {
+    margin:0;
+    padding: 0;
+    font: 14px arial, sans-serif;
+}
+
+header {
+    top: 0px;
+    position: absolute;
+    width: 100%;
+}
+
+header a {
+    color: black;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 5px;
+    display: block;
+    position: fixed;
+    height: 35px;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a, header a{
+    text-decoration: none;
+    display:inline-block;
+    line-height: 40px;
+    margin: 0px 15px;
+}
+
+footer a {
+    color: #5f6368;
+}
+
+
+#footer-left, #header-left {
+    float: left;
+}
+
+#footer-right, #header-right {
+    float: right;
+    margin-right: 50px;
+}
+
+#icon-div {
+    opacity: 50%;
+    position: relative;
+    top: 7px;
+    margin: 0px 10px;
+    display: inline-block;
+    align-self: center;
+}
+
+#icon-div:hover {
+    opacity: 85%;
+}
+
+#profile-icon-div {
+    position: relative;
+    top: 9px;
+    margin: 0px 10px;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 32px;
+    width: 32px;
+    background-size: 32px 32px;
+    background-image: url(https://lh3.googleusercontent.com/ogw/ADGmqu_4KdMzqcJFKqUABnwFfJGfMflunSSGdfO_ZMsj=s32-c-mo)
+}
+
+main {
+    justify-self: center;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: stretch;
+}
+
+#logo {
+    justify-self: center;
+    width: 100%;
+    margin-top: 250px;
+}
+
+#logo-img {
+    display: block;
+    margin: auto;
+    width: 450px;
+    height: 300px;
+}
+
+#searchinput {
+    background-color: transparent;
+    border: none;
+    margin: auto;
+    padding: 4px 0px 0px 20px;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    height: 34px;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#searchbar {
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    display: block;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    width: 482px;
+    margin: 0px auto auto auto;
+}
+
+.buttoninput {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+.buttoninput:hover {
+    box-shadow: black 0px 0px 4px;
+}
+
+#buttons {
+    margin: auto;
+}
+
+
